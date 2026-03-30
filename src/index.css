@@ -65,17 +65,27 @@
   --color-neutral-700: #3f3f46;
   --color-neutral-800: #27272a;
   --color-neutral-900: #18181b;
+
+  /* Dynamic Theme Variables (Updated by JS) */
+  --bg-main: #ffffff;
+  --text-main: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --card-bg: #ffffff;
+  --card-border: #f1f5f9;
 }
 
 @layer base {
   body {
-    @apply bg-neutral-50 text-neutral-900 font-sans antialiased;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    @apply font-sans antialiased transition-all duration-300;
   }
   
-  h1 { @apply text-4xl font-bold; }
-  h2 { @apply text-3xl font-semibold; }
-  h3 { @apply text-2xl font-semibold; }
-  h4 { @apply text-xl font-medium; }
+  h1 { color: var(--text-main); @apply text-4xl font-bold; }
+  h2 { color: var(--text-main); @apply text-3xl font-semibold; }
+  h3 { color: var(--text-main); @apply text-2xl font-semibold; }
+  h4 { color: var(--text-main); @apply text-xl font-medium; }
 }
 
 @layer components {
@@ -87,5 +97,21 @@
   }
   .btn-secondary {
     @apply bg-secondary-700 text-white hover:bg-secondary-800 focus:ring-secondary-500;
+  }
+  .bg-main {
+    background-color: var(--bg-main);
+  }
+  .bg-card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+  }
+  .text-main {
+    color: var(--text-main);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-muted {
+    color: var(--text-muted);
   }
 }

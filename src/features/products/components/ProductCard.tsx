@@ -9,7 +9,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className="group relative bg-white border border-secondary-100 rounded-[2rem] p-4 flex flex-col space-y-4 hover:shadow-2xl hover:border-primary-100 transition-all duration-500 transform hover:-translate-y-2">
+    <div className="group relative bg-card border border-secondary-100/10 rounded-[2rem] p-4 flex flex-col space-y-4 hover:shadow-2xl hover:border-primary-100 transition-all duration-500 transform hover:-translate-y-2">
       {/* Badge */}
       {product.inStock && (
         <span className="absolute top-6 right-6 z-10 px-3 py-1 bg-success/10 text-success text-[10px] font-bold uppercase rounded-full border border-success/20">
@@ -30,7 +30,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       {/* Content */}
       <div className="flex flex-col flex-1 px-4 pb-4">
         <span className="text-[10px] font-bold text-primary-600 uppercase tracking-[0.2em] mb-1">{product.category}</span>
-        <h3 className="text-lg font-bold text-secondary-800 leading-tight mb-2 min-h-[3rem] line-clamp-2">{product.name}</h3>
+        <h3 className="text-lg font-bold text-main leading-tight mb-2 min-h-[3rem] line-clamp-2">{product.name}</h3>
         
         {/* Rating */}
         <div className="flex items-center space-x-1 mb-4">
@@ -39,13 +39,13 @@ export const ProductCard = ({ product }: ProductCardProps) => {
               <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
             </svg>
           ))}
-          <span className="text-[10px] font-bold text-secondary-400 ml-2">({product.numReviews})</span>
+          <span className="text-[10px] font-bold text-muted ml-2">({product.numReviews})</span>
         </div>
 
         <div className="flex items-center justify-between mt-auto">
           <div className="flex flex-col">
-            <span className="text-secondary-400 text-xs font-medium uppercase tracking-wider -mb-1">{product.currency}</span>
-            <span className="text-xl font-black text-secondary-900 tracking-tighter">
+            <span className="text-muted text-xs font-medium uppercase tracking-wider -mb-1">{product.currency}</span>
+            <span className="text-xl font-black text-main tracking-tighter">
               {product.price.toLocaleString()}
             </span>
           </div>

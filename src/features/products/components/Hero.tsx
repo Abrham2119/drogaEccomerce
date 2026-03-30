@@ -5,7 +5,7 @@ export const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative overflow-hidden w-full min-h-[70vh] flex items-center bg-gradient-to-br from-primary-50 via-white to-secondary-50">
+    <section className="relative overflow-hidden w-full min-h-[70vh] flex items-center bg-transparent">
       {/* Background Shapes */}
       <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-primary-100/30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse pointer-events-none"></div>
       <div className="absolute -bottom-20 -left-20 w-[30vw] h-[30vw] bg-secondary-100/30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 pointer-events-none"></div>
@@ -15,11 +15,11 @@ export const Hero = () => {
           Leading Healthcare Platform
         </div>
         
-        <h1 className="text-[12vw] md:text-[6vw] font-extrabold leading-tight tracking-tight text-secondary-900 balance">
+        <h1 className="text-[12vw] md:text-[6vw] font-extrabold leading-tight tracking-tight text-main balance">
           {t('common.landing.hero_title')}
         </h1>
         
-        <p className="max-w-[700px] text-lg md:text-xl text-secondary-600 leading-relaxed font-medium">
+        <p className="max-w-[700px] text-lg md:text-xl text-secondary leading-relaxed font-medium">
           {t('common.landing.hero_subtitle')}
         </p>
         
@@ -36,7 +36,7 @@ export const Hero = () => {
           
           <Link 
             to="/about" 
-            className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white border-2 border-secondary-100 text-secondary-700 font-bold text-lg hover:bg-secondary-50 transition-all duration-300 flex items-center justify-center"
+            className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-card border-2 border-secondary-100/10 text-main font-bold text-lg hover:bg-secondary-50/10 transition-all duration-300 flex items-center justify-center"
           >
             {t('common.landing.learn_more')}
           </Link>

@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import commonEn from './locales/en/common.json';
 import commonAm from './locales/am/common.json';
+import commonAr from './locales/ar/common.json';
 
 i18n
   .use(LanguageDetector)
@@ -12,12 +13,13 @@ i18n
     resources: {
       en: { common: commonEn },
       am: { common: commonAm },
+      ar: { common: commonAr },
     },
     fallbackLng: 'en',
     ns: ['common'],
     defaultNS: 'common',
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false, 
     },
     detection: {
       order: ['localStorage', 'cookie', 'htmlTag'],

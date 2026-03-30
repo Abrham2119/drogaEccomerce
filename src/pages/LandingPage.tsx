@@ -19,8 +19,8 @@ export const LandingPage = () => {
         <section className="max-w-[1280px] mx-auto px-[5%] py-[10vw]">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 space-y-4 md:space-y-0">
             <div className="space-y-2">
-              <h2 className="text-secondary-900 tracking-tight">{t('common.products.title')}</h2>
-              <p className="text-secondary-500 font-medium max-w-[500px]">
+              <h2 className="text-main tracking-tight">{t('common.products.title')}</h2>
+              <p className="text-secondary font-medium max-w-[500px]">
                 Explore our comprehensive range of high-quality medical equipment and supplies for healthcare professionals.
               </p>
             </div>
