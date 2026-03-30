@@ -1,0 +1,47 @@
+{
+  "common": {
+    "welcome": "እንኳን ደህና መጡ ወደ ድሮጋ ኢኮሜርስ",
+    "search": "ፈልግ",
+    "error_loading": "መረጃውን ለመጫን ስህተት ተከስቷል።",
+    "actions": {
+      "save": "አስቀምጥ",
+      "cancel": "ተወው",
+      "delete": "አጥፋ",
+      "edit": "አስተካክል",
+      "create": "ፍጠር"
+    },
+    "nav": {
+      "home": "ዋና ገጽ",
+      "products": "ምርቶች",
+      "cart": "ጋሪ",
+      "login": "ግባ"
+    },
+    "landing": {
+      "hero_title": "ዘመናዊ የጤና መፍትሄዎች",
+      "hero_subtitle": "በጤና ስርጭት ውስጥ የታመነ አጋርዎ። በጥራት የተመረቱ ምርቶች በከፍተኛ ጥንቃቄ የሚቀርቡ።",
+      "shop_now": "አሁኑኑ ይግዙ",
+      "learn_more": "ተጨማሪ ይወቁ"
+    },
+    "products": {
+      "title": "የእኛ ምርቶች",
+      "view_details": "ዝርዝር ይመልከቱ",
+      "add_to_cart": "ወደ ጋሪ ጨምር",
+      "in_stock": "ክምችት አለ",
+      "out_of_stock": "ክምችት አልቋል"
+    }
+  },
+  "suppliers": {
+    "title": "አቅራቢዎች",
+    "add_new": "አቅራቢ ጨምር",
+    "name": "የአቅራቢ ስም",
+    "email": "ኢሜል",
+    "phone": "ስልክ ቁጥር",
+    "status": "ሁኔታ",
+    "success_create": "አቅራቢ በተሳካ ሁኔታ ተፈጥሯል!",
+    "error_create": "አቅራቢ ለመፍጠር አልተሳካም።",
+    "success_update": "አቅራቢ በተሳካ ሁኔታ ተዘምኗል!",
+    "error_update": "አቅራቢ ለማዘመን አልተሳካም።",
+    "success_delete": "አቅራቢ በተሳካ ሁኔታ ተሰርዟል!",
+    "error_delete": "አቅራቢ ለማጥፋት አልተሳካም።"
+  }
+}

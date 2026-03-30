@@ -1,0 +1,47 @@
+{
+  "common": {
+    "welcome": "Welcome to Droga Ecommerce",
+    "search": "Search",
+    "error_loading": "Something went wrong while loading data.",
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "create": "Create"
+    },
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "cart": "Cart",
+      "login": "Login"
+    },
+    "landing": {
+      "hero_title": "Modern Healthcare Solutions",
+      "hero_subtitle": "Your trusted partner in healthcare distribution. High-quality products, delivered with care.",
+      "shop_now": "Shop Now",
+      "learn_more": "Learn More"
+    },
+    "products": {
+      "title": "Our Products",
+      "view_details": "View Details",
+      "add_to_cart": "Add to Cart",
+      "in_stock": "In Stock",
+      "out_of_stock": "Out of Stock"
+    }
+  },
+  "suppliers": {
+    "title": "Suppliers",
+    "add_new": "Add Supplier",
+    "name": "Supplier Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "status": "Status",
+    "success_create": "Supplier created successfully!",
+    "error_create": "Failed to create supplier.",
+    "success_update": "Supplier updated successfully!",
+    "error_update": "Failed to update supplier.",
+    "success_delete": "Supplier deleted successfully!",
+    "error_delete": "Failed to delete supplier."
+  }
+}
